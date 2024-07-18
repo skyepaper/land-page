@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background-color: #674bb1;
+  background-image:url('https://svgur.com/i/18LV.svg');
+  padding: 65px 65px 35px 65px;
+}
+.logo {
+  height: 50px;
+}
+.content {
+  margin-top: 100px;
+  display: flex;
+}
+.hero-text {
+  font-family: Arial, serif;
+  margin-top: 30px;
+  margin-left: 55px;
+  color: #fefeff;
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff8ff;
+}
+a.btn {
+   font-size: 18px;
+   color: #433283;
+   background-color: #fff;
+   border-radius: 40px;
+   text-decoration: none;
+   display: inline-block;
+   margin-top: 25px;
+   padding: 20px 65px;
+   box-shadow: 0 0 1px 1px #483e63;
+}
+a.btn:hover {
+   color: #fff2ff;
+   background-color: #e980e7;
+   box-shadow: 0 0 4px 4px #483e63;
+   transition: color 0.3s,background-color 0.3s, box-shadow 0.3s;
+}
+.icons {
+   display: flex;
+   gap: 15px;
+   justify-content: flex-end;
+}
+.icon {
+   height: 20px;
+   filter: invert(1);
+   border: 1px solid black;
+   border-radius: 50px;
+   padding: 10px;
+}
+.icon:hover {
+   cursor: pointer;
+   height: 25px;
+   filter:  invert(57%) sepia(41%) saturate(5526%) hue-rotate(293deg) brightness(102%) contrast(94%); 
+}
+
+@media (max-width:730px) {
+   body {
+    background-image:url('https://svgshare.com/i/18PQ.svg');
+    padding: 30px 30px 35px 30px;
+  }
+  .logo {
+    height: 30px;
+  }
+  .content {
+    margin-top: 50px;
+    display: block;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .hero-text {
+    font-family: Arial, serif;
+    margin-top: 30px;
+    margin-left: 5px;    
+    color: #fefeff;
+    text-align: center;
+  }
+  h1 {
+    font-size: 25px;
+    line-height: 1.5;
+    text-transform: capitalize;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff8ff;
+  }
+  .icons {
+    margin-top: 20px;
+  }
+  a.btn {
+   font-size: 15px;
+  }
+  .icons {
+    margin-top: 60px;
+    justify-content: center;
+  }
+  .icon {
+   height: 10px;
+  }
+  .icon:hover {
+   height: 12px;
+  }
+}
